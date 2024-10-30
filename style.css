@@ -1,0 +1,94 @@
+body {
+    font-family: 'Times New Roman', Times, serif , sans-serif, bold;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #072c57;
+    color: rgb(109, 154, 13);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 100px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(237, 36, 36);
+    text-decoration: none;
+}
+
+.hero {
+    background: #0a5281;
+    padding: 2rem;
+    text-align: center;
+}
+
+.cta-button {
+    background: #FF9800;
+    color: rgb(228, 232, 230);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.about, .services, .contact {
+    padding: 2rem;
+    text-align: center;
+    font-style: italic;
+}
+
+.service-card {
+    border: 1px solid #a5e20c;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+footer {
+    background: #034490;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+
+    }
+.contact {
+
+background-color: rgb(105, 8, 130);
+line-height: 1;
+max-width: auto;
+min-height: 3cqh;
+text-align: center;
+
+}
+
+ (min-width: 300px) {
+    .services {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .service-card {
+        flex: 1 1 calc(25% - 2rem);
+        margin: 1rem;
+        min-width: 150px;
+    }
+}
